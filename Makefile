@@ -3,4 +3,4 @@
 build:
 	docker build -t po4a:latest .
 install:
-	cp ./po4a /usr/local/bin/po4a
+	cp ./po4a.sh /usr/local/bin/po4a
