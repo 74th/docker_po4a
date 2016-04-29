@@ -1,10 +1,15 @@
 # po4a
 
-po4a use in container
+use po4a in container
+
+## available commands
+
+* po4a
+* msginit
 
 ## how to use
 
-	docker pull po4a
+	make build
 	docker run -it --rm -v `pwd`:/src --workdir=/src --entrypoint=po4a po4a
 
 or
