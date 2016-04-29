@@ -2,6 +2,7 @@
 
 use po4a command in the container
 
+
 ## available commands
 
 * po4a
@@ -27,3 +28,7 @@ or
 	make build
 	sudo make install
 	po4a
+
+## LICENSE
+
+LICENSE is under license [po4a](https://po4a.alioth.debian.org/) has.
