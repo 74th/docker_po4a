@@ -15,8 +15,10 @@ use po4a command in the container
 or
 
 	docker pull 74th/po4a
-	echo docker run -it --rm -v \`pwd\`:/src --workdir=/src --entrypoint=po4a 74th/po4a > /usr/local/bin/po4a
-	echo docker run -it --rm -v \`pwd\`:/src --workdir=/src --entrypoint=msginit 74th/po4a > /usr/local/bin/msginit
+	echo docker run -it --rm -v \`pwd\`:/src --workdir=/src --entrypoint=po4a 74th/po4a $* > /usr/local/bin/po4a
+	echo docker run -it --rm -v \`pwd\`:/src --workdir=/src --entrypoint=msginit 74th/po4a $* > /usr/local/bin/msginit
+	chmod +x /usr/local/bin/po4a
+	chmod +x /usr/local/bin/msginit
 
 ## how to build and use
 

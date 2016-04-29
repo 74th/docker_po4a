@@ -1,1 +1,2 @@
-docker run -it --rm -v `pwd`:/src --workdir=/src --entrypoint=msginit po4a
+echo `pwd`
+docker run -it --rm -v `pwd`:/src --workdir=/src --entrypoint=po4a po4a $*
